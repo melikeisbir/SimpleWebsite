@@ -1,0 +1,138 @@
+body{
+    font-family: "Arial", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a{
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.course-container {
+    margin: 0px 20px;
+}
+
+.container h3 {
+    margin: 20px 40px;
+}
+
+.all-courses{
+    display: flex;
+}
+
+header {
+    background-color: #474F7A;
+    color: #B5C0D0;
+    padding: 20px 0;
+}
+
+header h1,
+nav{
+    text-align:center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 300ms all;
+}
+
+nav a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+main{
+    background-color: #F6F6F6;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.hero h2{
+    color:#474F7A;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #A58BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 300ms all;
+}
+
+.cta-button:hover {
+    background-color: #474F7A;
+}
+
+.courses{
+    padding: auto;
+}
+
+.course {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.course:hover {
+    border-color:#81689d;
+}
+
+.course img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.course-info {
+    flex-grow:1; /*resimden sonra tam genişlikte yayar */
+}
+
+.course h3{
+    margin: 0;
+    color:#474F7A;
+}
+
+.course p {
+    margin: 0;
+    color:#B4B4B8;
+}
+
+footer{
+    background-color: #474F7A;
+    color: #E3E1D9;
+    padding: 20px 0px;
+    text-align: center;
+}
